@@ -69,21 +69,14 @@ streamlit run app.py
 ---
 
 ## 🔎 Results
-- **Classification Accuracy**: Up to **98–100%** on test set.  
+- **Classification Accuracy**: Up to **94–100%** on test set.  
 - **Segmentation**: U-Net produces binary masks highlighting tumor regions.  
-
-Example output:  
-
-| Original MRI | Classification | Segmentation Mask |
-|--------------|----------------|-------------------|
-| ![MRI](example_mri.png) | Tumor (Yes) – 97% | ![Mask](example_mask.png) |
 
 ---
 
 ## 📌 Future Improvements
 - Train on **larger datasets** for robustness.  
 - Explore **EfficientNetV2 / Transformers** for better accuracy.  
-- Add **Grad-CAM visualization** for model explainability.  
 
 ---
 
